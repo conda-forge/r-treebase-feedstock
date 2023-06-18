@@ -1,11 +1,11 @@
-About r-treebase
-================
+About r-treebase-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-treebase-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/ropensci/treebase
 
 Package license: CC0-1.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-treebase-feedstock/blob/main/LICENSE.txt)
 
 Summary: Interface to the API for 'TreeBASE' <http://treebase.org> from 'R.' 'TreeBASE' is a repository of user-submitted phylogenetic trees (of species, population, or genes) and the data used to create them.
 
