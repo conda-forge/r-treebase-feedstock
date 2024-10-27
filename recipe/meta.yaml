@@ -1,6 +1,5 @@
 {% set version = "0.1.5" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-treebase
@@ -13,8 +12,7 @@ source:
   sha256: 92034d08ae6495f5b2a33b1349d61f659ac75937bacfb579fa75c9d75e7c2f1f
 
 build:
-  merge_build_host: true  # [win]
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -44,8 +42,8 @@ test:
 about:
   home: https://github.com/ropensci/treebase
   license: CC0-1.0
+  license_file: LICENSE
   summary: Interface to the API for 'TreeBASE' <http://treebase.org> from 'R.' 'TreeBASE' is a repository of user-submitted phylogenetic trees (of species, population, or genes) and the data used to create them.
-  license_family: CC
 
 extra:
   recipe-maintainers:
